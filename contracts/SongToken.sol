@@ -2,7 +2,7 @@ pragma solidity ^0.4.15;
 import "./AccessControlled.sol";
 import "./SafeMath.sol";
 
-contract TrustCoin is AccessControlled {
+contract SongToken is AccessControlled {
   using SafeMath for uint256;
 
   string public constant name     = "SongToken";

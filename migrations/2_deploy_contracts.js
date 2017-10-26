@@ -1,5 +1,5 @@
-var TrustCoin = artifacts.require("./TrustCoin.sol");
+var SongToken = artifacts.require("./SongToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(TrustCoin);
+  deployer.deploy(SongToken);
 };
