@@ -22,10 +22,8 @@ contract TrustCoin is AccessControlled {
   /**
    * @dev Contructor that gives msg.sender all of existing tokens. FIXME: this is simply for initial testing.
    */
-  function TestToken() public {
-    totalSupply          = INITIAL_SUPPLY;
-    balances[msg.sender] = INITIAL_SUPPLY;
-    addToAddresses(msg.sender);
+  function TrustCoin() public {
+    totalSupply = INITIAL_SUPPLY;
   }
   
   event Mint(address indexed to, uint256 amount);
