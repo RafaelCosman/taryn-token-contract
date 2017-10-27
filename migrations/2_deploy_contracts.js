@@ -1,5 +1,5 @@
-var SongToken = artifacts.require("./SongToken.sol");
+var TarynToken = artifacts.require("./TarynToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(SongToken);
+  deployer.deploy(TarynToken);
 };

@@ -2,11 +2,11 @@ pragma solidity ^0.4.15;
 import "./AccessControlled.sol";
 import "./SafeMath.sol";
 
-contract SongToken is AccessControlled {
+contract TarynToken is AccessControlled {
   using SafeMath for uint256;
 
-  string public constant name     = "SongToken";
-  string public constant symbol   = "ST";
+  string public constant name     = "TarynToken";
+  string public constant symbol   = "TA";
   uint8  public constant decimals = 18;
   
   uint256 public constant INITIAL_SUPPLY = 0;
@@ -22,7 +22,7 @@ contract SongToken is AccessControlled {
   /**
    * @dev Contructor that gives msg.sender all of existing tokens. FIXME: this is simply for initial testing.
    */
-  function TrustCoin() public {
+  function TarynToken() public {
     totalSupply = INITIAL_SUPPLY;
   }
   

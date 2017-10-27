@@ -1,6 +1,6 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
-const mnemonic = procss.env.MNEMONIC
+const mnemonic = process.env.MNEMONIC
 module.exports = {
   networks: {
     development: {
